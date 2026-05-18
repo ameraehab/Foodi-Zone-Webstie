@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+@layer utilities{
+    .primary-color{
+        color: #ffc001;
+    }
+    .secondary-color{
+        color: #ff9c01;
+    }
+    .container{
+
+         center:true,
+        padding: {
+DEFAULT :"1rem",
+sm:"3rem",
+        }
+    }
+}
