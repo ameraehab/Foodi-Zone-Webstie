@@ -1,8 +1,8 @@
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <div className="shadow-md bg-white">
+      <div>hello </div>
     </div>
   )
 }
