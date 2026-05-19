@@ -19,10 +19,10 @@ const Navbar = () => {
 
 
         { /* List Section */} 
-            <div className="flex items-center gap-4">  
+            <div className="flex items-center gap-4 ">  
 
                    {/*Dark Mode Toggle Button */}
-              <div>
+              <div className="">
                 <Darkmode/>
               </div>
               <ul className="hidden sm:flex gap-3.5 ">
