@@ -40,13 +40,16 @@ const changeTheme = () => {
         <img src={lightmode} alt="Light Mode" 
         onClick={changeTheme}
         className={`w-16 
-        absolute right-0 z-10  cursor-pointer 
+        absolute right-0 z-10 cursor-pointer 
         drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)]
          transition-all duration-300 
          ${theme === "dark" ? "opacity-100" : "opacity-0"}  `}/>  
       </div>
     </>
+
   )
+  
+  
 }
 
 export default Darkmode
