@@ -29,18 +29,18 @@ const servicesImages = [
 const Services = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="py-10 dark:bg-gray-900">
         <div className="container">
           {/*Header section*/}
           <div className="text-center mb-20 mx-auto  ">
             <p
               className="text-xl bg-clip-text text-transparent
-             bg-gradient-to-r from-primary to-secondary"
+             bg-gradient-to-r from-primary to-secondary dark:text-white"
             >
               Our Services
             </p>
-            <h1 className="text-4xl font-bold">Services</h1>
-            <p className="text-gray-600 text-sm mt-2">
+            <h1 className="text-4xl font-bold dark:text-primary">Services</h1>
+            <p className="text-gray-600 text-sm mt-2 dark:text-white">
               Experience the perfect blend of taste, quality, and exceptional
               service.
             </p>
@@ -69,7 +69,7 @@ const Services = () => {
                       <div className="px-3 pb-4">
                         <h2 className="text-xl font-bold ">{name}</h2>
                         <p
-                          className="text-gray-500 text-sm 
+                          className="dark:text-white text-gray-500 text-sm   
                         line-clamp-5 mt-2"
                         >
                           {description}
