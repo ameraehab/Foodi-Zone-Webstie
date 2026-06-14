@@ -64,7 +64,7 @@ text-center gap-4 pt-12 sm:pt-0 order-2 sm:order-1"
 
             {/* image section */}
             <div
-              className=" order-1 sm:order-2 min-h-[450px]  
+              className=" order-1 sm:order-2 min-h-[450px] 
             sm:min-h-[450px] flex justify-center items-center relative"
             >
               {/* main image section */}
@@ -75,9 +75,9 @@ text-center gap-4 pt-12 sm:pt-0 order-2 sm:order-1"
                 <img
                   src={imageId}
                   alt=""
-                  className="w-[300px] md:mr-[-12px] lg:w-[450px] 
-                  lg:mt-18 
-                  lg:ml-[-104px] sm:w-[380px] 
+                  className="w-[300px] md:mr-[-12px] lg:w-[350px] xl:w-[500px]
+                  lg:mt-10 
+                  lg:ml-[-200px] sm:w-[380px] 
                   mx-auto animate-spin 
                   [animation-duration:40s]"
                 />
