@@ -60,7 +60,10 @@ const Banner = () => {
                 </div>
               </div>
               <div>
-                <button className="p-3 w-40 cursor-pointer text-white text-shadow-lg hover:scale-105 duration-300 rounded-2xl bg-primary mt-5">
+                <button
+                  className="p-3 w-40 cursor-pointer text-white text-shadow-lg hover:scale-105 
+                duration-300 rounded-2xl bg-primary "
+                >
                   Order Now
                 </button>
               </div>
