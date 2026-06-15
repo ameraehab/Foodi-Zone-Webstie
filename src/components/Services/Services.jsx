@@ -29,7 +29,7 @@ const servicesImages = [
 const Services = () => {
   return (
     <>
-      <div className="py-10 dark:bg-gray-900">
+      <div className="py-10  dark:bg-gray-900">
         <div className="container">
           {/*Header section*/}
           <div className="text-center mb-20 mx-auto  ">
