@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const Banner = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
     });
   }, []);
 
@@ -31,7 +31,7 @@ const Banner = () => {
           <div className="flex flex-col justify-center gap-6">
             <h1
               data-aos="fade-up"
-              data-aos-delay="100"
+              data-aos-delay="50"
               className="text-3xl sm:text-4xl font-bold text-primary"
             >
               Welcome to Our Restaurant
@@ -39,7 +39,7 @@ const Banner = () => {
 
             <p
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="50"
               className="text-gray-500 dark:text-gray-300 leading-relaxed max-w-lg"
             >
               Discover the best dishes and flavors that will tantalize your
@@ -50,21 +50,21 @@ const Banner = () => {
 
             {/* Icons */}
             <div className="flex gap-6 mt-4">
-              <div data-aos="zoom-in" data-aos-delay="300">
+              <div data-aos="zoom-in" data-aos-delay="30">
                 <GrSecure className="text-4xl h-16 w-16 p-4 rounded-full bg-red-200 dark:bg-violet-500 shadow-md" />
               </div>
 
-              <div data-aos="zoom-in" data-aos-delay="400">
+              <div data-aos="zoom-in" data-aos-delay="40">
                 <IoFastFood className="text-4xl h-16 w-16 p-4 rounded-full bg-orange-200 dark:bg-orange-500 shadow-md" />
               </div>
 
-              <div data-aos="zoom-in" data-aos-delay="500">
+              <div data-aos="zoom-in" data-aos-delay="50">
                 <GiFoodTruck className="text-4xl h-16 w-16 p-4 rounded-full bg-green-200 dark:bg-green-500 shadow-md" />
               </div>
             </div>
 
             {/* Button */}
-            <div data-aos="fade-up" data-aos-delay="500">
+            <div data-aos="zoom-in" data-aos-delay="50">
               <button
                 className="py-3 px-6 rounded-full
                text-white bg-gradient-to-r
