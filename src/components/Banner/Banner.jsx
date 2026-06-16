@@ -17,7 +17,10 @@ const Banner = () => {
   return (
     <div className="dark:bg-gray-900 py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-10">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-2
+         items-center gap-10"
+        >
           {/* Image */}
           <div data-aos="fade-right">
             <img
