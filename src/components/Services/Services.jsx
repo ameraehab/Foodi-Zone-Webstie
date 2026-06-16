@@ -29,6 +29,8 @@ const servicesImages = [
 const Services = () => {
   return (
     <>
+      <hr className="hidden dark:block dark:bg-red" />
+
       <div className="py-10  dark:bg-gray-900">
         <div className="container m-auto">
           {/*Header section*/}
