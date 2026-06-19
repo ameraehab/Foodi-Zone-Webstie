@@ -1,15 +1,27 @@
 import Apps from "../../assets/foodDishes/app-store.png";
 import Delivery from "../../assets/foodDishes/delivary.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const AppStore = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+    });
+  }, []);
   return (
     <>
-      <hr className="hidden dark:block dark:bg-red" />
+      <hr className="hidden dark:block dark:bg-red  " />
       <div className="py-20  bg-orange-50 dark:bg-gray-900 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
             {/* Content */}
-            <div className="space-y-6 text-center lg:text-left">
+            <div
+              className="space-y-6 text-center lg:text-left"
+              data-aos="fade-up"
+              data-aos-delay="60"
+            >
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight dark:text-white">
                 Foodie is Available for
                 <span className="text-primary"> Android </span>
@@ -31,7 +43,11 @@ const AppStore = () => {
             </div>
 
             {/* Delivery Image */}
-            <div className="relative flex justify-center">
+            <div
+              className="relative flex justify-center "
+              data-aos="fade-right"
+              data-aos-delay="50"
+            >
               <img
                 src={Delivery}
                 alt="Delivery"
